@@ -13,9 +13,9 @@ while (True):
     content = str(content)
 
     # Localizar o dolar no html
-    find = '<span class="icon-box__subtitle">08/11/2018 - $ '
+    find = '<span class="icon-box__subtitle">'
     posicao = int(content.index(find)) + len(find)
-    dolar = content[posicao : posicao + 4]
+    dolar = content[posicao +15 : posicao +19]
 
     # Localizar a data do dolar
     find = '<span class="icon-box__subtitle">'
