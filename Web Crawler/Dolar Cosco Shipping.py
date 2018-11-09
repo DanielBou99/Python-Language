@@ -27,3 +27,4 @@ while (True):
     print('Dolar: {}\n'.format(dolar))
     print('Ultima atualizacao do programa: {}'.format(horario[11:16]))
     os.system('pause')
+    os.system('cls')
