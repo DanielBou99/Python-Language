@@ -22,7 +22,7 @@ while (True):
     posicao = int(content.index(find)) + len(find)
     data = content[posicao : posicao + 10]
 
-    print('COSCO SHIPPING LINESdd')
+    print('COSCO SHIPPING LINES')
     print('Data: {}'.format(data))
     print('Dolar: {}\n'.format(dolar))
     print('Ultima atualizacao do programa: {}'.format(horario[11:16]))
